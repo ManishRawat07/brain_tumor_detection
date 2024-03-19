@@ -1,3 +1,12 @@
+import subprocess
+
+# Define the command to install OpenCV silently
+install_command = 'pip install opencv-python --quiet'
+# Run the installation command using subprocess
+subprocess.run(install_command, shell=True)
+
+
+
 import streamlit as st
 import cv2
 import numpy as np
