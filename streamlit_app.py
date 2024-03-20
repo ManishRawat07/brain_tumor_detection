@@ -1,12 +1,3 @@
-import subprocess
-
-# Define the command to install OpenCV silently
-install_command = 'pip install opencv-python --quiet'
-# Run the installation command using subprocess
-subprocess.run(install_command, shell=True)
-
-
-
 import streamlit as st
 import cv2
 import numpy as np
@@ -59,5 +50,5 @@ def main():
 if __name__ == '__main__':
     main()
 
-# streamlit run brain_tumor_detector.py 
+# streamlit run streamlit_app.py 
 # /home/adminuser/venv/bin/python -m pip install --upgrade pip
